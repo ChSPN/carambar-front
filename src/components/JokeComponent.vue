@@ -25,7 +25,7 @@
         />
       </div>
       <!-- Affichage conditionnel selon l'état : blague, erreur ou état initial -->
-      <p v-if="joke" class="joke-text">{{ joke.text }}</p>
+      <p v-if="joke" class="joke-text" v-html="joke.text"></p>
       <p v-else-if="error" class="error-text">{{ error }}</p>
       <p v-else class="placeholder-text">
         Cliquez sur le bonbon pour découvrir une blague Carambar!
