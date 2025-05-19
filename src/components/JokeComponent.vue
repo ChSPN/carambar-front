@@ -218,8 +218,10 @@ Positionné avec un décalage négatif pour créer un effet de superposition
   cursor: pointer;
   transition: transform 0.3s;
   padding: 0;
-  width: 1500px;
-  margin-top: -400px;
+  width: 600px;
+  margin-top: -60px;
+  position: relative;
+  z-index: 1000; // Pour s'assurer que le bouton soit au-dessus du papier
   display: flex;
   justify-content: center;
 

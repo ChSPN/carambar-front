@@ -20,6 +20,8 @@ Ce repository présente une interface utilisateur intuitive permettant de décou
 - Interface responsive et intuitive
 - Intégration avec l'API backend
 
+## Configuration
+Dans le fichier .env et .env.production, la variable VUE_APP_API_BASE_URL permet de définir l'URL de base du serveur API.
 
 ## Installation et démarrage
 `bash`
@@ -41,6 +43,27 @@ Ce repository présente une interface utilisateur intuitive permettant de décou
 - **JokeComponent:** Affiche une blague comprenant une question et une réponse
 
 ## Structure du projet côté frontend
+carambar-front/  
+├── public/  
+│   ├── index.html  
+│   └── favicon.ico  
+├── src/  
+│   ├── assets/  
+│   │   └── styles/  
+│   │       └── main.scss  
+│   ├── components/  
+│   │   └── JokeComponent.vue  
+│   ├── services/  
+│   │   └── api.ts  
+│   ├── views/  
+│   │   └── HomeView.vue  
+│   ├── App.vue  
+│   └── main.ts  
+├── .gitignore  
+├── package.json  
+├── tsconfig.json  
+├── vue.config.js  
+└── README.md  
 
 
 ## Responsive Design
